@@ -1,0 +1,52 @@
+.conttainer{
+    width: 600px;
+    height: 350px;
+    border: 3px solid black;
+    margin: 150px auto;
+    overflow: hidden;
+    position: relative;
+}
+#left{
+   position: absolute;
+   font-size: 40px;
+    z-index: 1;
+    top: 120px;
+    left: 0;
+    cursor: pointer;
+}
+#right{
+    position: absolute;
+    font-size: 40px;
+    z-index: 1;
+    top: 120px;
+    right: 0;
+    cursor: pointer;
+}
+
+.dots{
+    width: 200px;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 30px;
+    left: 200px;
+    right: 200px;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slider img{
+    cursor: pointer;
+}
+.hidden{
+     display: none;
+ }
+.visibility{
+    display: block;
+    background-color: red;
+}
